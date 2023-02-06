@@ -1,0 +1,133 @@
+body {
+    background-image: url("../images/giphy.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#back {
+    background-image: url("../images/1.png");
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header, footer, section {
+    padding: 0 1em 0 1em;
+}
+
+header {
+    color: white;
+    padding: 2em 1em 1em 1em;
+    text-shadow: 3px 3px 3px red;
+}
+
+h1 {
+    padding-right: 5px;
+    text-align: end;
+    border: 2px solid white;
+    margin-left: auto;
+    width: 53%;
+}
+h4 {
+    /*padding: 2em 0 0 0;*/
+    text-shadow: 3px 3px 3px red;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+#head {
+    width: auto;
+    border: 3px solid white;
+    color: #000000;
+    margin-left: 62vw;
+    text-align: right;
+    text-shadow: 2px 2px 2px white;
+}
+
+hr.style1 {
+    margin-left: auto;
+    color: red;
+    width: 53%;
+    height: 13px;
+    box-shadow: 0 20px 20px -20px orangered inset;
+}
+
+hr.style2 {
+    width: 99%;
+    color: white;
+    height: 23px;
+    box-shadow: 0 20px 20px -20px white inset;
+}
+
+.content {
+    margin-bottom: 1em;
+    border: 1px solid #333333;
+    background-image: url('../images/back.jpg');
+    color: #000;
+}
+
+.aside img {
+    object-fit: contain;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.content p {
+    text-align: justify;
+    margin: 1em;
+    text-indent: 2em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.blockquote-N {
+    padding: 1em 0;
+}
+
+.blockquote-N p{
+    margin: 1em;
+    padding: 0 0 1em 0;
+    text-align: end;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer a {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+}
+
+button {
+    margin: 10px 0px;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "vanitokurason/orderlist",
+    "description": "Guest house book",
+    "type": "web-application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VanitoKurason",
+            "email": "vanitocurason@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+    "ext-pdo": "*"
+    }
+}
+
